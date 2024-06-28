@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const appointments = {
-    '1': [
+const appointments: { [key: string]: { id: string; date: string; time: string; duration: number }[] } = {
+  '1': [
       { id: 'a1', date: 'Monday, May 5th', time: '08:00 AM', duration: 3600 },
       { id: 'a2', date: 'Monday, May 5th', time: '10:00 AM', duration: 3600 },
       { id: 'a3', date: 'Tuesday, May 6th', time: '02:00 PM', duration: 3600 },
