@@ -18,7 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+  font-family: Tahoma;
 }
 
 @layer utilities {

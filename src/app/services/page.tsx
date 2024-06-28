@@ -37,7 +37,7 @@ const ServicesPage = () => {
       </h1>
       <ul className="list-none p-0">
         {services.map((service) => (
-          <div className='flex-col items-center m-[5px] p-[15px]  shadow justify-center border border-gray-300 rounded cursor-pointer 
+          <div key={service.id} className='flex-col items-center m-[5px] p-[15px]  shadow justify-center border border-gray-300 rounded cursor-pointer 
             '><li
             key={service.id}
             className="mb-5 p-5 flex items-center justify-between "
@@ -55,7 +55,7 @@ const ServicesPage = () => {
               <div>
                 <hr className='bg-black border border-black h-[1px]'></hr>                
                 <ul className="list-none pl-5 mt-2">
-                  <li className='text-14px text-'>Available appointments</li>
+                  <li className='text-14px text-black'>Available appointments</li>
                   {appointments.map((appointment) => (
                     <li
                       key={appointment.id}
@@ -66,10 +66,7 @@ const ServicesPage = () => {
                         mr-1 mt-0.5 w-4 h-4 
                          rounded-full border-2 border-solid 
                         border-customBlue before:pointer-events-none 
-                        before:absolute before:h-4 before:w-4 before:scale-0 
-
-
-                        "
+                        before:absolute before:h-4 before:w-4 before:scale-0"
                         >
                       </input>
 
