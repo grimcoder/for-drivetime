@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         customBlue: 'rgba(2, 146, 211, 1)',
-        customGreen: 'rgb(0, 204, 102)',
+        customGrey: 'rgba(92, 92, 92, 1)',
       },
       width:{
         '267px': '267px'

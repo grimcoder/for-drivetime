@@ -17,7 +17,8 @@ const HomePage = () => {
         comfort of your own home!
       </p>
       <Link href="/services">
-        <div className="w-[267px] font-bold h-[47px] flex flex-col items-center justify-center  bg-customBlue text-white px-4 py-2 rounded hover:bg-blue-700">
+        <div className="w-[267px] font-bold h-[47px] flex flex-col items-center 
+        justify-center  bg-customBlue text-white px-4 py-2 rounded hover:bg-blue-700">
           <div className='text-14px'>Get Started</div>
         </div>
       </Link>
